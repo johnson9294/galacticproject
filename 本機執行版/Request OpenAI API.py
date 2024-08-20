@@ -11,8 +11,8 @@ api_url = "https://galacticproject-OpenAI.openai.azure.com/openai/deployments/gp
 # 設置請求頭和API密鑰
 headers = {
     "Content-Type": "application/json",
-    "api-key": #這裡不知道填什麼
-    
+    "api-key": ""#這裡不知道填什麼
+
 }
 
 # 設置請求體
