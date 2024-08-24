@@ -3,15 +3,14 @@ import json
 
 # 引入金鑰
 from dotenv import dotenv_values
-openai.api_key = dotenv_values('galacticproject-apikey.env')["api_key"] #不確定要api-key還是api_key
-
+openai_api_key = dotenv_values('galacticproject-apikey.env')["api-key"] #env 取值
 # 設置API端點
 api_url = "https://galacticproject-OpenAI.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2023-03-15-preview"
 
 # 設置請求頭和API密鑰
 headers = {
     "Content-Type": "application/json",
-    "api-key": ""#這裡不知道填什麼
+    "api-key": openai_api_key
 
 }
 
