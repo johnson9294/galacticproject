@@ -3,7 +3,7 @@ import requests
 import base64
 
 # Configuration
-GPT4V_KEY = ""
+GPT4V_KEY = "dd95a9f7fdb046ccbb7125527b3d3798"
 IMAGE_PATH = r"C:\Users\johns\Documents\code\project\星河計畫人工智慧版\test image.png"
 encoded_image = base64.b64encode(open(IMAGE_PATH, 'rb').read()).decode('ascii')
 headers = {

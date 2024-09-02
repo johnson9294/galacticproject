@@ -2,7 +2,7 @@ import openai
 import json
 
 # Set your OpenAI API key
-openai.api_key = "" 
+openai.api_key = "fccce143b0364755905cdd31933afd6d" 
 
 # Set the deployment ID
 deployment_id = "gpt-4o"

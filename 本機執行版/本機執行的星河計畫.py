@@ -41,7 +41,7 @@ import requests
 import json
 
 NOTION_API_URL = "https://api.notion.com/v1/pages"
-NOTION_TOKEN = ""
+NOTION_TOKEN = "secret_bo2NWzC9O0EbwlgWMQ2YoOkfpK5rpCQghR5B202ELrf"
 DATABASE_ID = "fed1e473959746cb8658c3b3cb29efeb"
 
 def create_page_in_notion(title, description):

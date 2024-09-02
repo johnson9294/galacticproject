@@ -3,7 +3,7 @@ import json
 from bs4 import BeautifulSoup
 
 # 設置你的 GPT-4 API Key 和端點
-GPT4V_KEY = ""
+GPT4V_KEY = "dd95a9f7fdb046ccbb7125527b3d3798"
 GPT4V_ENDPOINT = "https://galacticproject-openai.openai.azure.com/openai/deployments/galacticproject/chat/completions?api-version=2024-02-15-preview"
 
 # 設置請求頭

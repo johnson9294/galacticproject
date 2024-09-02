@@ -1,9 +1,8 @@
 import csv
 from notion_client import Client
-from dotenv import dotenv_values
-openai_api_key = dotenv_values('galacticproject-apikey.env')["notion-api-key"] #env 取值
+
 # 初始化 Notion API 客戶端
-notion = Client(auth="notion-api-key") #這裡設定填入.env裡的金鑰
+notion = Client(auth="") #這裡設定填入.env裡的金鑰
 
 # 設定 Notion 資料庫 ID
 database_id = "fed1e473959746cb8658c3b3cb29efeb"
