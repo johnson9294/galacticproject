@@ -77,7 +77,7 @@ print("hello"+ reply[0] + "你今年" + str(reply[1]) + "歲" + reply[2])# retur
 # 範例輸入 #1
 # 95
 # 範例輸出 #1
-# A
+# A80
 # 範例輸入 #2
 # 85
 # 範例輸出 #2
@@ -98,8 +98,6 @@ def get_grade(score): # 定義一個函數來判斷成績等第
         return "E"
 grade = get_grade(score) # 呼叫函數並取得等第
 print("你的成績等第為" + grade) # 輸出等第
-
-
 
 # for loop 迴圈
 # function 自訂函數
