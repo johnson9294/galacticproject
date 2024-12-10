@@ -27,7 +27,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
     else:
         # 如果沒有 <article>，則嘗試從最大的 <div> 標籤提取
         divs = soup.find_all('div')
-        largest_div = max(divs, key=lambda div: len(div.get_text(separator='\n', strip=True)))
+        if divs:
+            largest_div = max(divs, key=lambda div: len(div.get_text(separator='\n', strip=True)))
+            content = largest_div.get_text(separator='\n', strip=True)
         content = largest_div.get_text(separator='\n', strip=True)
 
     if name:
